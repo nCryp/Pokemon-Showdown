@@ -689,12 +689,12 @@ var commands = exports.commands = {
 		this.sendReplyBox('E4 <b>Jeratt</b><br />'+
 		      '<i>"When our battle is done, Ill be dragon you away~"</i> <br />'+
 		      '<b>Type:</b> Dragon<br />'+
-		      '<b>Ace:</b> Druddigon (Cactusurous)<br />'+
+		      '<b>Ace:</b> Zygarde<br />'+
 	 	      '<b>Battle Rules:</b> <br/>'+
 	 	      '-No Hazards <br/>'+
-	 	      '-No Legendaries <br/>'+
-	 	      '-No Priority <br />'+
-	 	      '-No Weather Except Rain <br />'+
+	 	      '-Double Battle <br/>'+
+	 	      '-Max 1 Uber <br />'+
+	 	      '-No Weather <br />'+
 	 	      '<img src="http://i.imgur.com/vuDajGL.png"> <img src="http://play.pokemonshowdown.com/sprites/trainers/202.png">');
         },
 	

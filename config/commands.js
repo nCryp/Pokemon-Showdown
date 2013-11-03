@@ -625,7 +625,7 @@ var commands = exports.commands = {
 	groups: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox('+ <b>Voice</b> - League friends and respected users. They can use ! commands.<br />' +
-		        '$ <b>Operator</b> - Loyal Gym Trainers in training. They can warn users.'
+		        '$ <b>Operator</b> - Loyal Gym Trainers in training. They can warn users.<br />'+
 			'% <b>Driver</b> - Gym Leaders, expert in their respective types. They can mute users and check alts.<br />' +
 			'@ <b>Moderator</b> - Frontier Brains, a twist in every game. They can ban users.<br />' +
 			'&amp; <b>Leader</b> - Elite Four, the best of the best in the battlefield. They can force ties and promote users.<br />'+

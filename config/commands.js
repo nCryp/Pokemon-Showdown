@@ -684,6 +684,19 @@ var commands = exports.commands = {
 	 	      '<img src="http://sprites.pokecheck.org/s/034.gif"> <img src="http://sprites.pokecheck.org/t/069.gif">');
 	},
 	
+	bart: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('Frontier Head <b>Bart</b><br />'+
+			 '<i>"Patience? Nah.... Speed and power is what you need!"</i> <br />'+
+			 '<b>Ace:</b> Weavile<br />'+
+	 	     '<b>Battle Rules:</b> <br/>'+
+	 	     '-OU Battle <br/>'+
+	 	     '-No Pseudo-Legendaries (or any Rotom Forms) <br/>'+
+	 	     '-No Prankster (or any Priority) <br/>'+
+	 	     '-No Choice Items on Legendaries<br />'+
+	 	     '<img src="http://sprites.pokecheck.org/i/461.gif"> <img src="http://sprites.pokecheck.org/t/148.gif">');
+        },
+	
 	jeratt: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox('E4 <b>Jeratt</b><br />'+
@@ -735,6 +748,68 @@ var commands = exports.commands = {
 	 	      '-Standard OU <br/>'+
 	 	      '<img src="http://media-cerulean.cursecdn.com/avatars/thumbnails/292/989/56/56/635178240045575018.png"> <img src="http://sprites.pokecheck.org/t/139.gif">');
 	},
+	
+	lapry: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('Frontier <b>Lapry</b><br />'+
+			  '<i>"The Lovely Power of Little Pokemon is Over-powered."</i> <br />'+
+			  '<b>Ace:</b> Zorua<br />'+
+			  '<b>Battle Rules:</b> <br />'+
+			  '-LC Battle <br />'+
+			  '-No Guard not Allowed <br />'+
+			  '-Use your Favourite Pokemon (or its Pre-Evolution) <br />'+
+			  '<img src="http://sprites.pokecheck.org/i/570.gif"> <img src="http://sprites.pokecheck.org/t/053.gif">');
+        },
+        
+        vader: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('Frontier <b>Vader</b><br />'+
+	              '<i>"Laugh my friend, and the whole world laughs with you."</i> <br />'+
+	              '<b>Ace:</b> Charizard<br />'+
+	 	      '<b>Battle Rules:</b> <br/>'+
+	 	      '-NU Battle <br/>'+
+	 	      '-No Hazards <br/>'+
+	 	      '-No Healing Moves (Includes Status Healing) <br/>'+
+	 	      '-1 Pokemon must have a Toxic/Flame Orb<br />'+
+	 	      '<img src="http://sprites.pokecheck.org/s/006.gif"> <img src="http://sprites.pokecheck.org/t/040.gif">');
+	},
+	
+	ascher: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('Frontier <b>Ascher</b><br />'+
+	       	      '<i>"Strategy is key."</i> <br />'+
+		      '<b>Ace:</b> Clefable<br />'+
+	 	      '<b>Battle Rules:</b> <br/>'+
+	 	      '-Pokemon Chess - 1 OU, 2 UU, 1 RU, 1 NU, 1 Uber <br/>'+
+	 	      '-Ubers is King (Loss if the King Faints) <br/>'+
+	 	      '<img src="http://play.pokemonshowdown.com/sprites/trainers/54.png"> <img src="http://sprites.pokecheck.org/i/003f.gif">');
+	},
+	
+	bm: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('Frontier <b>B/m/</b><br />'+
+			'<i>"Every member of a team plays its part. That is why its called a team."</i> <br />'+
+			'<b>Ace:</b> Metagross<br />'+
+		 	'<b>Battle Rules:</b> <br/>'+
+		 	'-OU Monotype <br/>'+
+		 	'-Challenger Choses 3 Types - 1 Not Very Effective, 1 Neutral, 1 Super Effective Against the Challengers Type <br/>'+
+		 	'-Frontier will use the types chosen by Challenger <br/>'+
+		 	'-Best of 3 Series<br />'+
+		 	'-No Legendaries<br />'+
+		 	'<img src="http://play.pokemonshowdown.com/sprites/trainers/54.png"> <img src="http://sprites.pokecheck.org/i/003f.gif">');
+        },
+        
+        abadon: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('Frontier <b>Abadon</b><br />'+
+			'<i>"The battle is only lost when you lose faith in your pokemon."</i> <br />'+
+			'<b>Ace:</b> Xerneas<br />'+
+		 	'<b>Battle Rules:</b> <br/>'+
+		 	'-Ubers Battle <br/>'+
+		 	'-Only 1 Legendary Allowed from each set of Leagendaries (e.g. Giratina and Dialga not allowed if you choose Palkia) <br/>'+
+		 	'<img src="http://sprites.pokecheck.org/i/491.gif"> <img src="http://sprites.pokecheck.org/t/088.gif">');
+        },
+
 
 	opensource: function(target, room, user) {
 		if (!this.canBroadcast()) return;

@@ -684,9 +684,51 @@ var commands = exports.commands = {
 	 	      '<img src="http://sprites.pokecheck.org/s/034.gif"> <img src="http://sprites.pokecheck.org/t/069.gif">');
 	},
 	
+	jeratt: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('E4 <b>Jeratt</b><br />'+
+		      '<i>"When our battle is done, Ill be dragon you away~"</i> <br />'+
+		      '<b>Type:</b> Dragon<br />'+
+		      '<b>Ace:</b> Druddigon (Cactusurous)<br />'+
+	 	      '<b>Battle Rules:</b> <br/>'+
+	 	      '-No Hazards <br/>'+
+	 	      '-No Legendaries <br/>'+
+	 	      '-No Priority <br />'+
+	 	      '-No Weather Except Rain <br />'+
+	 	      '<img src="http://i.imgur.com/vuDajGL.png"> <img src="http://play.pokemonshowdown.com/sprites/trainers/202.png">');
+        },
+	
+	toast: function(target, room, user) {
+			if (!this.canBroadcast()) return;
+			this.sendReplyBox('E4 <b>Toast</b><br />'+
+			  '<i>"A Day without SunShine is like Night Time."</i> <br />'+
+			  '<b>Type:</b> Fire<br />'+
+			  '<b>Ace:</b> Charizard<br />'+
+	 	      '<b>Battle Rules:</b> <br/>'+
+	 	      '-No Hazards <br/>'+
+	 	      '-Only Sun Allowed <br/>'+
+	 	      '-Monotype <br />'+
+	 	      '-No Focus Sash <br />'+
+	 	      '<img src="http://sprites.pokecheck.org/s/250.gif"> <img src="http://sprites.pokecheck.org/t/025.gif">');
+        },
+        
+        berry: function(target, room, user) {
+			if (!this.canBroadcast()) return;
+			this.sendReplyBox('E4 <b>Berry</b><br />'+
+			  '<i>"Dont underestimate water because I can Wash away even the Strongest teams."</i> <br />'+
+			  '<b>Type:</b> Water<br />'+
+			  '<b>Ace:</b> Keldeo<br />'+
+			  '<b>Battle Rules:</b> <br />'+
+			  '-No Weather Except Rain <br/>'+
+			  '-No Hidden Power <br/>'+
+			  '-No Rain Boosted Accuracy Moves <br/>'+
+			  '-No Abilities that Absorb Water <br/>'+
+			  '<img src="http://sprites.pokecheck.org/i/647.gif"> <img src="http://sprites.pokecheck.org/t/140.gif">');
+        },
+	
 	lynne: function(target, room, user) {
 		if (!this.canBroadcast()) return;
-		this.sendReplyBox('E4 <b>lynne</b><br />'+
+		this.sendReplyBox('E4 <b>Lynne</b><br />'+
 		      '<i>"My overwhelming fortitude keeps Sora strong and mighty."</i> <br />'+
 		      '<b>Ace:</b> Klefki <br />'+
 	 	      '<b>Battle Rules:</b> <br/>'+

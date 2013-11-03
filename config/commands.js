@@ -683,6 +683,16 @@ var commands = exports.commands = {
 	 	      '-Tiershift<br />'+
 	 	      '<img src="http://sprites.pokecheck.org/s/034.gif"> <img src="http://sprites.pokecheck.org/t/069.gif">');
 	},
+	
+	lynne: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('E4 <b>lynne</b><br />'+
+		      '<i>"My overwhelming fortitude keeps Sora strong and mighty."</i> <br />'+
+		      '<b>Ace:</b> Klefki <br />'+
+	 	      '<b>Battle Rules:</b> <br/>'+
+	 	      '-Standard OU <br/>'+
+	 	      '<img src="http://media-cerulean.cursecdn.com/avatars/thumbnails/292/989/56/56/635178240045575018.png"> <img src="http://sprites.pokecheck.org/t/139.gif">');
+	},
 
 	opensource: function(target, room, user) {
 		if (!this.canBroadcast()) return;

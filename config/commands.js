@@ -687,13 +687,13 @@ var commands = exports.commands = {
 	bart: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox('Frontier Head <b>Bart</b><br />'+
-			 '<i>"Patience? Nah.... Speed and power is what you need!"</i> <br />'+
-			 '<b>Ace:</b> Weavile<br />'+
+		     '<i>"Patience? Nah.... Speed and power is what you need!"</i> <br />'+
+		     '<b>Ace:</b> Weavile<br />'+
 	 	     '<b>Battle Rules:</b> <br/>'+
-	 	     '-OU Battle <br/>'+
-	 	     '-No Pseudo-Legendaries (or any Rotom Forms) <br/>'+
-	 	     '-No Prankster (or any Priority) <br/>'+
-	 	     '-No Choice Items on Legendaries<br />'+
+	 	     '-Ubers Battle <br/>'+
+	 	     '-At least 2 must be OU or lower) <br/>'+
+	 	     '-No pseudo-legendary <br/>'+
+	 	     '-No stats over 130<br />'+
 	 	     '<img src="http://sprites.pokecheck.org/i/461.gif"> <img src="http://sprites.pokecheck.org/t/148.gif">');
         },
 	
@@ -752,25 +752,25 @@ var commands = exports.commands = {
 	lapry: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox('Frontier <b>Lapry</b><br />'+
-			  '<i>"The Lovely Power of Little Pokemon is Over-powered."</i> <br />'+
-			  '<b>Ace:</b> Zorua<br />'+
+			  '<i>"The powers of Pokemon makes the world shine ."</i> <br />'+
+			  '<b>Ace:</b> Marowak<br />'+
 			  '<b>Battle Rules:</b> <br />'+
-			  '-LC Battle <br />'+
-			  '-No Guard not Allowed <br />'+
-			  '-Use your Favourite Pokemon (or its Pre-Evolution) <br />'+
-			  '<img src="http://sprites.pokecheck.org/i/570.gif"> <img src="http://sprites.pokecheck.org/t/053.gif">');
+			  '-Pokebank OU <br />'+
+			  '-No Legendaries <br />'+
+			  '-No Mega Evolutions <br />'+
+			  '-No Hazards <br />'+
+			  '<img src="http://sprites.pokecheck.org/i/105.gif"> <img src="http://sprites.pokecheck.org/t/053.gif">');
         },
         
         vader: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox('Frontier <b>Vader</b><br />'+
 	              '<i>"Laugh my friend, and the whole world laughs with you."</i> <br />'+
-	              '<b>Ace:</b> Charizard<br />'+
+	              '<b>Ace:</b> Hitmonlee<br />'+
 	 	      '<b>Battle Rules:</b> <br/>'+
-	 	      '-NU Battle <br/>'+
-	 	      '-No Hazards <br/>'+
-	 	      '-No Healing Moves (Includes Status Healing) <br/>'+
-	 	      '-1 Pokemon must have a Toxic/Flame Orb<br />'+
+	 	      '-UU Battle <br/>'+
+	 	      '-No Healing/Status Healing Moves and Abilities <br/>'+
+	 	      '-No Status (Unless Caused by Attack) <br/>'+
 	 	      '<img src="http://sprites.pokecheck.org/s/006.gif"> <img src="http://sprites.pokecheck.org/t/040.gif">');
 	},
 	
@@ -809,9 +809,17 @@ var commands = exports.commands = {
 		 	'-Only 1 Legendary Allowed from each set of Leagendaries (e.g. Giratina and Dialga not allowed if you choose Palkia) <br/>'+
 		 	'<img src="http://sprites.pokecheck.org/i/491.gif"> <img src="http://sprites.pokecheck.org/t/088.gif">');
         },
+        
+        leaf: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('Gym Ldr <b>Leaf</b><br />'+
+			  '<i>"Normal might seem simple, easy to you, but we have different definitions of normal and mine is an easy victory."</i> <br />'+
+			  '<b>Type:</b> Normal<br />'+
+			  '<b>Ace:</b> Meloetta<br />'+
+			  '<img src="http://sprites.pokecheck.org/i/648.gif"> <img src="http://sprites.pokecheck.org/t/122.gif">');
+        },
 
-
-	opensource: function(target, room, user) {
+        opensource: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox('Pokemon Showdown is open source:<br />- Language: JavaScript<br />- <a href="https://github.com/Zarel/Pokemon-Showdown/commits/master">What\'s new?</a><br />- <a href="https://github.com/Zarel/Pokemon-Showdown">Server source code</a><br />- <a href="https://github.com/Zarel/Pokemon-Showdown-Client">Client source code</a>');
 	},

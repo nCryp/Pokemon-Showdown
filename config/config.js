@@ -99,7 +99,7 @@ exports.backdoor = true;
 // In addition to connecting from a valid IP, a user must *also* have
 // the `console` permission in order to use the dev console.
 // Setting this to an empty array ([]) will disable the dev console.
-exports.consoleips = ['blakjack', 'e4arsh'];
+exports.consoleips = ['championonyxe', 'onyxeagle'];
 
 // Whether to watch the config file for changes. If this is enabled,
 // then the config.js file will be reloaded when it is changed.
@@ -136,53 +136,7 @@ exports.herokuhack = false;
 // displayed in the client.
 exports.customavatars = {
 	//'userid': 'customavatar.png'
-	  'blakjack': 'blakjack.png',
-	  'quality': 'quality.png',
-	  'skarr': 'skarr.gif',
-	  'laaagar': 'laaagar.gif',
-	  'gymleaderzeron': 'gymleaderzeron.gif',
-	  'frankentein': 'frankentein.png',
-	  'championtobias': 'championtobias.png',
-	  'proflef': 'proflef.png',
-	  'wooperex': 'wooperex.png',
-	  'sooperpooper': 'sooperpooper.gif',
-	  'ejdrago': 'ejdrago.gif',
-	  'e4velocifaptor': 'e4velocifaptor.png',
-	  'masterblazing': 'masterblazing.png',
-	  'gymleadersurfing': 'gymleadersurfing.gif',
-	  'elitefouryousef': 'elitefouryousef.gif',
-	  'elitefourmario': 'elitefourmario.gif',
-	  'supersilverex': 'supersilverex.jpg',
-	  'gymleaderzard': 'gymleaderzard.png',
-	  'yorolo': 'yorolo.gif',
-	  'queenofdubstep': 'queenofdubstep.gif',
-	  'championcorper': 'championcorper.png',
-	  'plox': 'plox.png',
-	  'ncrypt': 'ncrypt.gif',
-	  'boo118': 'boo118.gif',
-	  'achampaero': 'achampaero.gif',
-	  'pangorojackk': 'pangorojackk.png',
-	  'championyognas': 'championyognas.png',
-	  'e4arsh': 'e4arsh.gif',
-	  'e4frostie': 'gymleaderlucy.gif',
-	  'frostiethefroslass': 'gymleaderlucy.gif',
-	  'e4zeppy': 'e4zeppy.gif',
-	  'e4alice': 'e4alice.png',
-	  'frontiersilverex': 'frontiersilverex.gif',
-	  'championsarynade': 'championsarynade.gif',
-	  'championonyxe': 'championonyxe.png',
-	  'e4cat': 'e4cat.png',
-	  'frontierheadskarr': 'frontierheadskarr.gif',
-	  'e4yanmega': 'e4yanmega.gif',
-	  'gymleadercjdud3': 'gymleadercjdud3.gif',
-	  'gymleaderboo': 'gymleaderboo.gif',
-	  'e4takuto': 'e4takuto.gif',
-	  'gymleaderwinx': 'gymleaderwinx.gif',
-	  'achampdarkoath': 'achampdarkoath.png',
-	  'e4savyy': 'e4savyy.gif',
-	  'gymleaderdraygon': 'gymleaderdraygon.gif',
-	  'gymleaderlights': 'gymleaderlights.png',
-	  'gymleaderdemelza': 'gymleaderdemelza.png',
+	  
 };
 
 // appealurl - specify a URL containing information on how users can appeal

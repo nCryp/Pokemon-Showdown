@@ -631,6 +631,58 @@ var commands = exports.commands = {
 			'&amp; <b>Leader</b> - Elite Four, the best of the best in the battlefield. They can force ties and promote users.<br />'+
 			'~ <b>Administrator</b> - Supreme Rulers of this se. They can do anything.');
 	},
+	
+	server: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('This is The Server of <b>The Sora League</b>. Hosted by <b>Champion OnyxE</b><br />');
+	},
+	
+	tourhelp: function(target, room, user) {
+	    if (!this.canBroadcast()) return;
+	    this.sendReplyBox('<b>Tournament Commands:</b><br />' +
+	        'Only Voice (+) Users and Above can Start Tournaments. <br />'+
+	        '- <b>/tour [tier],[size / X minutes]</b> - Starts a tournament or sets a timer.<br />' +
+	        '- <b>/tourtime </b> - Adjusts the timer length.<br />' +
+	        '- <b>/forcejoin</b> - Forces a user to join the tournament.<br />' +
+	        '- <b>/forceleave </b> - Forces a user to leave the tournament.<br />' +
+	        '- <b>/replace </b> - Replaces a participant pre-tournament.<br />' +
+	        '- <b>!remind</b> - Reminds everyone of tournaments in their sign-up phase.<br />' +
+	        '- <b>!vr</b> - Shows the current round.<br />' +
+	        '- <b>/dq</b> - Disqualifies a participant.<br />' +
+	        '- <b>/endtour</b> - Cancels a tournament.<br />');
+        },
+
+	battlefrontier: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('<b>Sora Battle Frontier</b><br />'+
+		 	'<i>"Welcome to the Sora Battle Frontier! Challenge us if you Dare."</i> <br />'+
+		 	'<b>Requirements:</b> 8 Badges<br />'+
+	 	    '<b>Rules:</b> The battle frontier may be challenged after collecting 8 gym badges and is needed to enter the Hall of Fame. You must beat 7 frontiers (Frontier Head needs to be the last Frontier battle and teams may be changed after each game to fit the next Battle Frontiers set of rules). You can not use Super Effective type pokemon against Mono-Type frontier brains. The same frontier may be challenged once every 24 hours.The Challenger must choose a partner Pokemon that must be present in all Frontier challenges.<br/>');
+        },
+	
+	onyxe: function(target, room, user) {
+	 	if (!this.canBroadcast()) return;
+	 	this.sendReplyBox('Champion <b>OnyxE</b><br />'+
+	 	    '<i>"Heads or Tails? Heads, I Win; Tails, you Lose"</i> <br />'+
+	 	    '<b>Ace:</b> Tyranitar<br />'+
+	 	    '<b>Battle Rules:</b> <br />'+
+	 	    '-Smogon Doubles Format<br />'+
+	 	    '-No Weather except Sandstorm<br />'+
+	 	    '-No Status (Unless Caused by Attack)<br />'+
+	 	    '<img src="http://fc08.deviantart.net/fs38/f/2008/323/e/0/Tyranitar_Animation_by_smeebob.gif"> <img src="http://sprites.pokecheck.org/t/099.gif">');
+        },
+        
+        noah: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('Champion <b>Noah</b><br />'+
+		      '<i>"Its all Gonna be kay~, kay?"</i> <br />'+
+		      '<b>Ace:</b> Nidoqueen the Nidoking <br />'+
+	 	      '<b>Battle Rules:</b> <br/>'+
+	 	      '-Monotype <br/>'+
+	 	      '-All Tiers must be Represented (Except Ubers and LC) <br/>'+
+	 	      '-Tiershift<br />'+
+	 	      '<img src="http://sprites.pokecheck.org/s/034.gif"> <img src="http://sprites.pokecheck.org/t/069.gif">');
+	},
 
 	opensource: function(target, room, user) {
 		if (!this.canBroadcast()) return;

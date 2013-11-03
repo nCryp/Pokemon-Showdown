@@ -624,11 +624,12 @@ var commands = exports.commands = {
 
 	groups: function(target, room, user) {
 		if (!this.canBroadcast()) return;
-		this.sendReplyBox('+ <b>Voice</b> - They can use ! commands like !groups, and talk during moderated chat<br />' +
-			'% <b>Driver</b> - The above, and they can also mute and lock users and check for alts<br />' +
-			'@ <b>Moderator</b> - The above, and they can ban users<br />' +
-			'&amp; <b>Leader</b> - The above, and they can promote moderators and force ties<br />'+
-			'~ <b>Administrator</b> - They can do anything, like change what this message says');
+		this.sendReplyBox('+ <b>Voice</b> - League friends and respected users. They can use ! commands.<br />' +
+		        '$ <b>Operator</b> - Loyal Gym Trainers in training. They can warn users.'
+			'% <b>Driver</b> - Gym Leaders, expert in their respective types. They can mute users and check alts.<br />' +
+			'@ <b>Moderator</b> - Frontier Brains, a twist in every game. They can ban users.<br />' +
+			'&amp; <b>Leader</b> - Elite Four, the best of the best in the battlefield. They can force ties and promote users.<br />'+
+			'~ <b>Administrator</b> - Supreme Rulers of this se. They can do anything.');
 	},
 
 	opensource: function(target, room, user) {

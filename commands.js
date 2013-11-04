@@ -1557,7 +1557,7 @@ var commands = exports.commands = {
 			//user will be authenticated
 			user.authenticated = true;
 
-			this.add('|raw|-- <b><font color="#000000">' + newName + '</font color></b> is no longer away');
+			this.add('|raw|-- <b><font color="#000000">' + newName + '</font color></b> is back');
 
 			user.isAway = false;
 		}

@@ -837,6 +837,15 @@ var commands = exports.commands = {
 			  '<img src="http://i.imgur.com/zVptN2v.png"> <img src="http://play.pokemonshowdown.com/sprites/trainers/9.png">');
         },
         
+        neith: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('E4 <b>Neith</b><br />'+
+		      '<i>"The Trainer whos Passion Burns Brighter with Each Passing Battle."</i> <br />'+
+		      '<b>Type:</b> Fire<br />'+
+		      '<b>Ace:</b> Arcanine<br />'+
+	 	      '<img src="http://sprites.pokecheck.org/i/059.gif"> <img src="http://sprites.pokecheck.org/t/144.gif">');
+        },
+        
         bighug: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 	        this.sendReplyBox('Gym Ldr <b>BIG HUG</b><br />'+

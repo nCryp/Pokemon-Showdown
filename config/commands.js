@@ -1549,7 +1549,7 @@ var commands = exports.commands = {
 		}
 		if (target === "%" || target === 'warn' || target === 'k') {
 			matched = true;
-			this.sendReply('/warn OR /k [username], [reason] - Warns a user showing them the Pokemon Showdown Rules and [reason] in an overlay. Requires: % @ & ~');
+			this.sendReply('/warn OR /k [username], [reason] - Warns a user showing them the Pokemon Showdown Rules and [reason] in an overlay. Requires: $ % @ & ~');
 		}
 		if (target === '%' || target === 'mute' || target === 'm') {
 			matched = true;
@@ -1582,7 +1582,7 @@ var commands = exports.commands = {
 		}
 		if (target === '&' || target === 'declare') {
 			matched = true;
-			this.sendReply('/declare [message] - Anonymously announces a message. Requires: & ~');
+			this.sendReply('/declare [message] - Anonymously announces a message. Requires: ~');
 		}
 		if (target === '~' || target === 'chatdeclare' || target === 'cdeclare') {
 			matched = true;
@@ -1594,7 +1594,7 @@ var commands = exports.commands = {
 		}
 		if (target === '%' || target === 'announce' || target === 'wall') {
 			matched = true;
-			this.sendReply('/announce OR /wall [message] - Makes an announcement. Requires: % @ & ~');
+			this.sendReply('/announce OR /wall [message] - Makes an announcement. Requires: @ & ~');
 		}
 		if (target === '@' || target === 'modchat') {
 			matched = true;
@@ -1650,9 +1650,10 @@ var commands = exports.commands = {
 			this.sendReply('For details on all room commands, use /roomhelp');
 			this.sendReply('For details on all commands, use /help all');
 			if (user.group !== config.groupsranking[0]) {
-				this.sendReply('DRIVER COMMANDS: /mute, /unmute, /announce, /forcerename, /alts')
-				this.sendReply('MODERATOR COMMANDS: /ban, /unban, /unbanall, /ip, /modlog, /redirect, /kick');
-				this.sendReply('LEADER COMMANDS: /promote, /demote, /forcewin, /forcetie, /declare');
+				this.sendReply('OPERATOR COMMANDS: /warn')
+				this.sendReply('DRIVER COMMANDS: /mute, /unmute, /forcerename, /alts');
+				this.sendReply('MODERATOR COMMANDS: /announce, /ban, /unban, /unbanall, /ip, /modlog, /redirect, /kick');
+				this.sendReply('LEADER COMMANDS: /promote, /demote, /forcewin, /forcetie');
 				this.sendReply('For details on all moderator commands, use /help @');
 			}
 			this.sendReply('For details of a specific command, use something like: /help data');

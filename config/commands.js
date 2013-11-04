@@ -891,6 +891,14 @@ var commands = exports.commands = {
 			  '<b>Ace:</b> Gardevoir<br />'+
 			  '<img src="http://sprites.pokecheck.org/s/282.gif"> <img src="http://sprites.pokecheck.org/t/108.gif">');
 	},
+	
+	site: 'site',
+		site: function(target, room, user) {
+			if (!this.canBroadcast()) return;
+			this.sendReplyBox('Here is The Sora League Website:<br />' +
+				'- <a href="http://soraleague.weebly.com/index.html">Sora League Site</a><br />' +
+				'</div>');
+	},
 
         opensource: function(target, room, user) {
 		if (!this.canBroadcast()) return;

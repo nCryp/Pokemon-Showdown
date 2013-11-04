@@ -899,6 +899,54 @@ var commands = exports.commands = {
 				'- <a href="http://soraleague.weebly.com/index.html">Sora League Site</a><br />' +
 				'</div>');
 	},
+	
+	gymtrainers: 'gym trainers',
+		gymtrainers: function(target, room, user) {
+			if (!this.canBroadcast()) return;
+			this.sendReplyBox('Here is a list of Sora League Gym Trainers:<br />' +
+				'- <a href="http://soraleague.weebly.com/gym-trainers.html">Sora League Gym Trainers</a><br />' +
+				'</div>');
+	},
+
+        gymleaders: 'gym leaders',
+		gymleaders: function(target, room, user) {
+			if (!this.canBroadcast()) return;
+			this.sendReplyBox('Here is a list of Sora League Gym Leaders:<br />' +
+				'- <a href="http://soraleague.weebly.com/gym-leaders.html">Sora League Gym Leaders</a><br />' +
+				'</div>');
+	},
+
+	elitefour: 'e4',
+		elitefour: function(target, room, user) {
+				if (!this.canBroadcast()) return;
+				this.sendReplyBox('Here is a list of Sora League Elite Four:<br />' +
+					'- <a href="http://soraleague.weebly.com/elite-four.html">Sora League Elite Four</a><br />' +
+					'</div>');
+	},
+
+	champions: 'champions',
+			champions: function(target, room, user) {
+					if (!this.canBroadcast()) return;
+					this.sendReplyBox('Here is a list of Sora League Champions:<br />' +
+						'- <a href="http://soraleague.weebly.com/champions.html">Sora League Champions</a><br />' +
+						'</div>');
+	},
+
+	frontiers: 'frontiers',
+			frontiers: function(target, room, user) {
+					if (!this.canBroadcast()) return;
+					this.sendReplyBox('Here is a list of Sora League Frontier Brains:<br />' +
+						'- <a href="http://soraleague.weebly.com/frontier.html">Sora League Frontier Brains</a><br />' +
+						'</div>');
+	},
+
+	sidemissions: 'sidemissions',
+			sidemissions: function(target, room, user) {
+					if (!this.canBroadcast()) return;
+					this.sendReplyBox('Here is a list of Sora League Side Missions:<br />' +
+						'- <a href="http://soraleague.weebly.com/side-missions.html">Sora League Side Missions</a><br />' +
+						'</div>');
+	},
 
         opensource: function(target, room, user) {
 		if (!this.canBroadcast()) return;

@@ -796,7 +796,7 @@ var commands = exports.commands = {
 		 	'-Frontier will use the types chosen by Challenger <br/>'+
 		 	'-Best of 3 Series<br />'+
 		 	'-No Legendaries<br />'+
-		 	'<img src="http://play.pokemonshowdown.com/sprites/trainers/54.png"> <img src="http://sprites.pokecheck.org/i/003f.gif">');
+		 	'<img src="http://i.imgur.com/k650Uw2.gif"> <img src="http://sprites.pokecheck.org/t/139.gif">');
         },
         
         abadon: function(target, room, user) {

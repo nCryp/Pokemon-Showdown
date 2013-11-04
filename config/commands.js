@@ -877,7 +877,7 @@ var commands = exports.commands = {
 	maiya: function(target, room, user) {
 	        if (!this.canBroadcast()) return;
 		this.sendReplyBox('Gym Ldr <b>Maiya</b><br />'+
-			  '<i>-''Pokemon are your best friens, right Pikachu?'' -''Pika!''</i> <br />'+
+			  '<i>-"Pokemon are your best friens, right Pikachu?" -"Pika!"</i> <br />'+
 			  '<b>Type:</b> Electric<br />'+
 			  '<b>Ace:</b> Pikachu<br />'+
 			  '<img src="http://sprites.pokecheck.org/i/025.gif"> <img src="http://sprites.pokecheck.org/t/136.gif">');

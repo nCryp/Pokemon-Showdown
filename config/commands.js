@@ -629,7 +629,7 @@ var commands = exports.commands = {
 			'% <b>Driver</b> - Gym Leaders, expert in their respective types. They can mute users and check alts.<br />' +
 			'@ <b>Moderator</b> - Frontier Brains, a twist in every game. They can ban users.<br />' +
 			'&amp; <b>Leader</b> - Elite Four, the best of the best in the battlefield. They can force ties and promote users.<br />'+
-			'~ <b>Administrator</b> - Supreme Rulers of this se. They can do anything.');
+			'~ <b>Administrator</b> - Supreme Rulers of this server. They can do anything.');
 	},
 	
 	server: function(target, room, user) {

@@ -837,6 +837,15 @@ var commands = exports.commands = {
 			  '<b>Note:</b> Hugs (not optional)<br />'+
 			  '<img src="http://sprites.pokecheck.org/s/469.gif"> <img src="http://play.pokemonshowdown.com/sprites/trainers/103.png">');
         },
+        
+        spelings: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('Gym Ldr <b>Spelings</b><br />'+
+		         '<i>"Look to the Skies for Hope."</i> <br />'+
+	              	 '<b>Type:</b> Flying<br />'+
+			 '<b>Ace:</b> Salamence<br />'+
+			 '<img src="http://sprites.pokecheck.org/i/373.gif"> <img src="http://sprites.pokecheck.org/t/117.gif">');
+        },
 
         opensource: function(target, room, user) {
 		if (!this.canBroadcast()) return;

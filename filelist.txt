@@ -52,5 +52,6 @@ package.json
 rooms.js
 simulator.js
 tools.js
+tour.js
 users.js
 verifier.js

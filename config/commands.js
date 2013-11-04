@@ -841,11 +841,29 @@ var commands = exports.commands = {
         spelings: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox('Gym Ldr <b>Spelings</b><br />'+
-		         '<i>"Look to the Skies for Hope."</i> <br />'+
+		         '<i>"May the Lady Hax watch over you."</i> <br />'+
 	              	 '<b>Type:</b> Flying<br />'+
 			 '<b>Ace:</b> Salamence<br />'+
 			 '<img src="http://sprites.pokecheck.org/i/373.gif"> <img src="http://sprites.pokecheck.org/t/117.gif">');
         },
+        
+        meme: function(target, room, user) {
+	        if (!this.canBroadcast()) return;
+		this.sendReplyBox('Gym Ldr <b>Meme</b><br />'+
+			  '<i>"?."</i> <br />'+
+			  '<b>Type:</b> Ground<br />'+
+			  '<b>Ace:</b> Mamoswine<br />'+
+			  '<img src="http://sprites.pokecheck.org/i/473.gif"> <img src="http://sprites.pokecheck.org/t/091.gif">');
+	},
+	
+	bush: function(target, room, user) {
+	        if (!this.canBroadcast()) return;
+		this.sendReplyBox('Gym Ldr <b>Bush</b><br />'+
+			  '<i>"I like trains."</i> <br />'+
+			  '<b>Type:</b> Grass<br />'+
+			  '<b>Ace:</b> Ludicolo<br />'+
+			  '<img src="http://sprites.pokecheck.org/i/272f.gif"> <img src="http://sprites.pokecheck.org/t/154.gif">');
+	},
 
         opensource: function(target, room, user) {
 		if (!this.canBroadcast()) return;

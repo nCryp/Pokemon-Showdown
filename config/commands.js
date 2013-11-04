@@ -819,6 +819,15 @@ var commands = exports.commands = {
 			  '<img src="http://sprites.pokecheck.org/i/648.gif"> <img src="http://sprites.pokecheck.org/t/122.gif">');
         },
         
+        core: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('Gym Ldr <b>Core</b><br />'+
+			  '<i>"The rocks are ancient beings. Do not underestimate the power of the Ancients."</i> <br />'+
+			  '<b>Type:</b> Rock<br />'+
+			  '<b>Ace:</b> Rampardos<br />'+
+			  '<img src="http://sprites.pokecheck.org/i/409.gif"> <img src="http://sprites.pokecheck.org/t/129.gif">');
+        },
+        
         vanilla: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 	        this.sendReplyBox('Gym Ldr <b>Vanilla</b><br />'+

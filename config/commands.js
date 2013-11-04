@@ -864,6 +864,15 @@ var commands = exports.commands = {
 			  '<b>Ace:</b> Ludicolo<br />'+
 			  '<img src="http://sprites.pokecheck.org/i/272f.gif"> <img src="http://sprites.pokecheck.org/t/154.gif">');
 	},
+	
+	wholphy: function(target, room, user) {
+	        if (!this.canBroadcast()) return;
+		this.sendReplyBox('Gym Ldr <b>Wholphy</b><br />'+
+			  '<i>"?."</i> <br />'+
+			  '<b>Type:</b> Psychic<br />'+
+			  '<b>Ace:</b> Gardevoir<br />'+
+			  '<img src="http://sprites.pokecheck.org/s/282.gif"> <img src="http://sprites.pokecheck.org/t/108.gif">');
+	},
 
         opensource: function(target, room, user) {
 		if (!this.canBroadcast()) return;

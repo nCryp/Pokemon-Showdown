@@ -821,11 +821,21 @@ var commands = exports.commands = {
         
         vanilla: function(target, room, user) {
 		if (!this.canBroadcast()) return;
-	    this.sendReplyBox('Gym Ldr <b>Vanilla</b><br />'+
+	        this.sendReplyBox('Gym Ldr <b>Vanilla</b><br />'+
 			  '<i>"The adorable fairies will bake the cake of your demise! Yayifications!"</i> <br />'+
 			  '<b>Type:</b> Fairy<br />'+
 			  '<b>Ace:</b> Slurpuff (Drury Lane)<br />'+
 			  '<img src="http://i.imgur.com/zVptN2v.png"> <img src="http://play.pokemonshowdown.com/sprites/trainers/9.png">');
+        },
+        
+        bighug: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+	        this.sendReplyBox('Gym Ldr <b>BIG HUG</b><br />'+
+			  '<i>"BIG HUG, the big bug, will give your team a BIG BUG HUG!"</i> <br />'+
+			  '<b>Type:</b> Bug<br />'+
+			  '<b>Ace:</b> Yanmega<br />'+
+			  '<b>Note:</b> Hugs (not optional)<br />'+
+			  '<img src="http://sprites.pokecheck.org/s/469.gif"> <img src="http://play.pokemonshowdown.com/sprites/trainers/103.png">');
         },
 
         opensource: function(target, room, user) {

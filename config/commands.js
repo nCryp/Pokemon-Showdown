@@ -822,10 +822,10 @@ var commands = exports.commands = {
         core: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox('Gym Ldr <b>Core</b><br />'+
-			  '<i>"The rocks are ancient beings. Do not underestimate the power of the Ancients."</i> <br />'+
+			  '<i>"Mining is a fun job. Anyone should try and get their diamonds in life."</i> <br />'+
 			  '<b>Type:</b> Rock<br />'+
-			  '<b>Ace:</b> Rampardos<br />'+
-			  '<img src="http://sprites.pokecheck.org/i/409.gif"> <img src="http://sprites.pokecheck.org/t/129.gif">');
+			  '<b>Ace:</b> Aerodactyl<br />'+
+			  '<img src="http://sprites.pokecheck.org/i/142.gif"> <img src="http://sprites.pokecheck.org/t/129.gif">');
         },
         
         vanilla: function(target, room, user) {

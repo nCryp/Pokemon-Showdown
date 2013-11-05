@@ -32,11 +32,12 @@ background: #d4d4ec;
 }
 
 .menugroup .button:hover{
-    background:#C00000  none repeat scroll 0 0;
+    background:#000000  none repeat scroll 0 0;
     opacity:.8;
 }
 
-.menugroup .button:hover{
-    border-color:#20354a;
+.menugroup .button{
+    background:#000000  none repeat scroll 0 0;
+    opacity:.8;
 }
 }

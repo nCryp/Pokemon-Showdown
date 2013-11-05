@@ -901,6 +901,15 @@ var commands = exports.commands = {
 			  '<img src="http://sprites.pokecheck.org/s/282.gif"> <img src="http://sprites.pokecheck.org/t/108.gif">');
 	},
 	
+	floatzel: function(target, room, user) {
+	        if (!this.canBroadcast()) return;
+		this.sendReplyBox('Gym Ldr <b>Foatzel</b><br />'+
+			  '<i>"When it comes down to it, I am still the strongest!."</i> <br />'+
+			  '<b>Type:</b> Steel<br />'+
+			  '<b>Ace:</b> Jirachi<br />'+
+			  '<img src="http://sprites.pokecheck.org/i/385.gif"> <img src="http://sprites.pokecheck.org/t/139.gif">');
+	},
+	
 	site: 'site',
 		site: function(target, room, user) {
 			if (!this.canBroadcast()) return;

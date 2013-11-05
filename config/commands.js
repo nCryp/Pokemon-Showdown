@@ -1085,7 +1085,7 @@ var commands = exports.commands = {
 	rules: function(target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox('Please follow the rules:<br />' +
-			'- <a href="http://pokemonshowdown.com/rules">Rules</a><br />' +
+			'- <a href="http://soraleague.weebly.com/rules.html">Sora League Rules</a><br />' +
 			'</div>');
 	},
 

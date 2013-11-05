@@ -7,7 +7,7 @@
     background: url("http://i41.tinypic.com/2lx6wrd.jpg") no-repeat scroll left top (63, 38, 70);
 }
 
-.chat-log{font-size:10pt;background: url("http://i43.tinypic.com/2dtsmd1.jpg") no-repeat scroll center;background:#ffffff;color:#000;overflow:auto;}
+.chat-log{font-size:10pt;background: url("http://i43.tinypic.com/2dtsmd1.jpg") no-repeat scroll center;background:#ffffff;color:#ffffff;overflow:auto;}
 
 .userlist {
 border-left: 1px solid #0000ff;

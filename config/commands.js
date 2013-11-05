@@ -903,7 +903,7 @@ var commands = exports.commands = {
 	
 	floatzel: function(target, room, user) {
 	        if (!this.canBroadcast()) return;
-		this.sendReplyBox('Gym Ldr <b>Foatzel</b><br />'+
+		this.sendReplyBox('Gym Ldr <b>Floatzel</b><br />'+
 			  '<i>"When it comes down to it, I am still the strongest!."</i> <br />'+
 			  '<b>Type:</b> Steel<br />'+
 			  '<b>Ace:</b> Jirachi<br />'+

@@ -33,11 +33,11 @@ background: #d4d4ec;
 
 .menugroup .button:hover{
     background:#000000  none repeat scroll 0 0;
-    opacity:.8;
+    opacity:.6;
 }
 
 .menugroup .button{
     background:#000000  none repeat scroll 0 0;
-    opacity:.8;
+    opacity:.9;
 }
 }

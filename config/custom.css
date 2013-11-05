@@ -10,7 +10,6 @@
 .chat-log{
 font-size:10pt;
 background: #ffffff url("http://i43.tinypic.com/2dtsmd1.jpg") no-repeat scroll center;
-background:#ffffff;
 color:#000;
 overflow:auto;
 }
@@ -19,6 +18,7 @@ overflow:auto;
 border-left: 1px solid #0000ff;
 background: #d4d4ec;
 }
+
 .userlist li
 {
         border-bottom:1px solid #0000ff;
@@ -26,6 +26,7 @@ background: #d4d4ec;
         font:10pt Verdana,sans-serif;
         white-space:nowrap
 }
+
 .userlist li em.group
 {
         font-style:normal;

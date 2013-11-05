@@ -12,4 +12,11 @@
 border-left: 1px solid #D5DDE4;
 background: #d4d4ec;
 }
+.userlist li
+{
+        border-bottom:1px solid #a066aa;
+        height:19px;
+        font:10pt Verdana,sans-serif;
+        white-space:nowrap
+}
 }

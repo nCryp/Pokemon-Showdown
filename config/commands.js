@@ -743,6 +743,7 @@ var commands = exports.commands = {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox('E4 <b>Lynne</b><br />'+
 		      '<i>"My overwhelming fortitude keeps Sora strong and mighty."</i> <br />'+
+		      '<b>Type:</b> Steel<br />'+
 		      '<b>Ace:</b> Klefki <br />'+
 	 	      '<b>Battle Rules:</b> <br/>'+
 	 	      '-Standard OU <br/>'+

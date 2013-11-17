@@ -918,6 +918,13 @@ var commands = exports.commands = {
 	 	    'Ace: Yanmega <br />'+
 		    '<img src="http://play.pokemonshowdown.com/sprites/bwani/yanmega.gif">')},		
 			
+			nCrypt: 'nCrypt',
+        nCrypt: function(target, room, user) {
+                 if (!this.canBroadcast()) return;
+                 this.sendReplyBox('nCrypt <br />'+
+                  '<i>" Go to heaven for the climate, and Hell for my company"</i> <br />'+
+                  'Ace: Terrakion<br />'+
+                  '<img src="http://imgur.com/eaNvlMY">')},
 	
 	gymldrstark: 'stark',
         stark: function(target, room, user) {  
